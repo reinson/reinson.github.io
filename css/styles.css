@@ -10,3 +10,7 @@ div {
 .container {
     max-width: 800px;
 }
+
+.my-name {
+    float: right !important;
+}
