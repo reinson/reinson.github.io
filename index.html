@@ -1,58 +1,67 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
+	<meta charset="utf-8">
 	<meta name="author" content="Tormi Reinson">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
 	<title>Tormi Reinson web site</title>
-  	<link rel="stylesheet" href="css/styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
+  	<link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
     <header class="container">
-        <div class="row">
-            <div class="col-md-2">
-                <img class="img-responsive" src="https://placeholdit.imgix.net/~text?txtsize=20&txt=logo&w=80&h=80" alt="TODO">
+        <div class="row header-wrapper">
+            <div class="logo col-md-2 col-xs-4">
+                <img class="img-responsive" src="img/U_90x90px.jpg" alt="Udacity logo">
             </div>
-            <div class="col-md-4 my-name">
-                <h1 class="text-right">Tormi Reinson</h1>
-                <h3 class="text-right">Frontend developer</h3>
+            <div class="col-md-6 col-xs-8 float-right" id="my-name">
+                <h1 class="text-right text-uppercase text-thin">Tormi Reinson</h1>
+                <h4 class="text-right text-uppercase">Data visualization engineer</h4>
             </div>
         </div>
-        <hr>
+        <div class="row hr-row">
+            <div class="col-md-12 hr-cols">
+                <hr>
+            </div>
+        </div>
     </header>
     <main class="container">
-        <section>
-            <div class="row">
-                <div class="col-md-12">
-                    <img class="img-responsive" src="https://placeholdit.imgix.net/~text?txtsize=66&txt=800×400&w=800&h=400" alt="TODO">
+        <section class="main-image">
+            <div class="row main-image-row">
+                <div class="col-md-12 main-image-cols">
+                    <img class="img-responsive" src="img/d3.jpg" alt="Main image">
                 </div>
             </div>
         </section>
-        <section>
-            <div class="row">
-                <div class="col-md-4">Featured work</div>
+        <section class="featured-work">
+            <div class="row featured-title-row">
+                <div class="col-md-4 featured-title-cols">
+                    <h2 class="text-muted">Featured work</h2>
+                </div>
             </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <img class="img-responsive" src="https://placeholdit.imgix.net/~text?txtsize=66&txt=300×200&w=300&h=200" alt="TODO">
-                    <h4> Title </h4>
-                    <div> link </div>
+            <div class="row featured-list">
+                <div class="col-xs-12 col-sm-6 col-md-4 text-center" id="featured-map">
+                    <a href="http://euro2016map.appspot.com">
+                        <img class="img-responsive center-block" src="img/map.jpg" alt="UEFA euro 2016 map">
+                        <h4> UEFA 2016 map </h4>
+                    </a>
                 </div>
-                <div class="col-md-4">
-                    <img class="img-responsive" src="https://placeholdit.imgix.net/~text?txtsize=66&txt=300×200&w=300&h=200" alt="TODO">
-                    <h4> Title </h4>
-                    <div> link </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 text-center" id="featured-ehif">
+                    <a href="https://www.stacc.ee/ehif-stacked-area/?lng=En">
+                        <img class="img-responsive center-block" src="img/ehif.jpg" alt="Estonian health care spending graph">
+                        <h4> Estonian health care spending </h4>
+                    </a>
                 </div>
-                <div class="col-md-4">
-                    <img class="img-responsive" src="https://placeholdit.imgix.net/~text?txtsize=66&txt=300×200&w=300&h=200" alt="TODO">
-                    <h4> Title </h4>
-                    <div> link </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 text-center" id="featured-demographics">
+                    <a href="http://bl.ocks.org/reinson/raw/4edb6d60afd451e1cfaf6369f943bd7b">
+                        <img class="img-responsive center-block" src="img/demographics.jpg" alt="Estonian demographics graph">
+                        <h4> Estonian demographics</h4>
+                    </a>
                 </div>
             </div>
         </section>
     </main>
-
 </body>
 </html>
