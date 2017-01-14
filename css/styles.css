@@ -13,7 +13,7 @@ body {
 }
 
 .text-muted {
-    color: #BCBBBB
+    color: #bcbbbb
 }
 
 .text-thin {
@@ -28,19 +28,19 @@ body {
     margin-top: 20px;
 }
 
-.featured-list img {
-    -webkit-filter: grayscale(70%); /* Safari 6.0 - 9.0 */
+hr {
+    margin-top: 0;
+}
+
+.grayscale {
+    -webkit-filter: grayscale(70%);
     filter: grayscale(70%);
-    transition: all .3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     cursor: pointer;
 }
 
-.featured-list img:hover {
+.grayscale:hover {
     filter: none;
     -webkit-filter: grayscale(0%);
     transform: scale(1.1);
-}
-
-hr {
-    margin-top: 0;
 }
