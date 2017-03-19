@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d722ddef-da61-4b9b-bea7-e2fc4f6e2980" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/maps.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/udacity_google_maps" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Udacity_WDND_final_project" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitmodules" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="reinson.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -378,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1489875645344</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Deleted google maps files">
+      <created>1489954240912</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1489954240912</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -412,7 +418,8 @@
     <MESSAGE value="Google maps app" />
     <MESSAGE value="Changed file names" />
     <MESSAGE value="Renamed back" />
-    <option name="LAST_COMMIT_MESSAGE" value="Renamed back" />
+    <MESSAGE value="Deleted google maps files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleted google maps files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
