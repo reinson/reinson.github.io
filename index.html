@@ -9,76 +9,138 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
   	<link rel="stylesheet" href="css/styles.css" />
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="js/jquery-3.2.0.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="container">
-        <div class="row header-wrapper">
-            <div class="col-xs-4 col-md-2 logo">
-                <img class="img-responsive"  src="img/U_70x70px.jpg" alt="Blue Udacity logo">
-            </div>
-            <div class="col-xs-8 col-md-6 float-right" id="my-name">
-                <h1 class="text-right text-uppercase text-thin">Tormi Reinson</h1>
-                <h4 class="text-right text-uppercase">Data visualization engineer</h4>
+        <div class="row">
+            <div class="col-md-12 contacts">
+                <div><a href="mailto:tormi.reinson@gmail.com?Subject=Hi!" target="_top">Email</a></div>
+                <div><a href="https://twitter.com/tormireinson"> Twitter </a></div>
+                <div><a href="https://www.linkedin.com/in/tormireinson/">Linkedin</a> </div>
+                <div>resume</div>
             </div>
         </div>
-        <div class="row hr-row">
+        <div class="row hr-row" id="first-hr">
             <div class="col-md-12 hr-cols">
                 <hr>
             </div>
         </div>
-    </header>
-    <main class="container">
-        <section class="main-image">
-            <div class="row main-image-row">
-                <div class="col-sm-12 col-md-8 main-image-cols">
-                    <img class="img-responsive" src="img/d3.jpg" alt="Main image from d3js.org">
-                </div>
-                <div class="col-xs-12 col-sm-8 col-md-4 my-introduction">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc justo tortor, tristique vitae justo facilisis, tincidunt bibendum est. Etiam id libero et dolor dignissim pharetra quis in leo. Aenean lectus velit, ultrices at orci et, viverra dapibus eros.</p>
+        <div class="row my-name">
+            <div class="col-md-12">
+                <h1 class="text-uppercase">Tormi Reinson</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-5 col-md-6 keyword-wrapper">
+                <p class="text-uppercase">Data visualizations</p>
+                <p class="text-uppercase">Data analysis</p>
+                <p class="text-uppercase">Front end development</p>
+            </div>
+            <div class="col-xs-12 featured-title-cols mobile-hi">
+                    <h2 class="text-muted">Hi!</h2>
+            </div>
+            <div class="col-xs-12 mobile-hi">
+                <hr>
+            </div>
+            <div class="row hello-text">
+                <div class="col-xs-10 col-sm-7 col-md-6 my-introduction">
+                    <p>Hi! My name is <b>Tormi Reinson</b>. I am a data visualization engineer and data analyst from Estonia. </p>
+                    <p>I love working with data, finding insights from it and creating interactive visualizations. Feel free to <b>contact me</b> if you would like to collaborate or hire me!</p>
                 </div>
             </div>
-        </section>
+        </div>
+
+
+    </header>
+    <main class="container">
         <section class="featured-work">
             <div class="row featured-title-row">
                 <div class="col-md-4 featured-title-cols">
                     <h2 class="text-muted">Featured work</h2>
                 </div>
             </div>
+            <div class="row hr-row" id="second-hr">
+                <div class="col-md-12 hr-cols">
+                    <hr>
+                </div>
+            </div>
             <div class="row featured-list">
-                <div class="col-xs-12 col-sm-6 col-md-4 text-center link-wrapper">
-                    <a href="http://euro2016map.appspot.com">
-                        <div class="link-image">
-                            <img  class="img-responsive center-block" srcset="img/map_2x.jpg 2x" src="img/map.jpg" alt="UEFA euro 2016 map">
-                        </div>
-                        <h4> UEFA 2016 map </h4>
-                    </a>
+                <div class="col-xs-12 col-sm-6 col-md-4 text-center link-wrapper" data-toggle="modal" data-target="#myModal" id="uefa">
+                    <div class="link-image">
+                        <img  class="img-responsive center-block" srcset="img/map_2x.jpg 2x" src="img/map.jpg" alt="UEFA euro 2016 map">
+                    </div>
+                    <h4> UEFA 2016 map </h4>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 text-center link-wrapper">
-                    <a href="https://www.stacc.ee/ehif-stacked-area/?lng=En">
-                        <div class="link-image">
-                            <img class="img-responsive center-block " srcset="img/ehif_2x.jpg 2x" src="img/ehif.jpg" alt="Estonian health care spending graph">
-                        </div>
-                        <h4> Estonian health care spending </h4>
-                    </a>
+                <div class="col-xs-12 col-sm-6 col-md-4 text-center link-wrapper" id="dgns" >
+                    <div class="link-image">
+                        <img class="img-responsive center-block " srcset="img/ehif_2x.jpg 2x" src="img/ehif.jpg" alt="Estonian health care spending graph">
+                    </div>
+                    <h4> Estonian health care spending </h4>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 text-center link-wrapper" >
-                    <a href="http://bl.ocks.org/reinson/raw/4edb6d60afd451e1cfaf6369f943bd7b">
-                        <div class="link-image">
-                            <img class="img-responsive center-block" srcset="img/demographics_2x.jpg 2x" src="img/demographics.jpg" alt="Estonian demographics graph">
-                        </div>
-                        <h4> Estonian demographics</h4>
-                    </a>
+                <div class="col-xs-12 col-sm-6 col-md-4 text-center link-wrapper" id="demographics" >
+                    <div class="link-image">
+                        <img class="img-responsive center-block" srcset="img/demographics_2x.jpg 2x" src="img/demographics.jpg" alt="Estonian demographics graph">
+                    </div>
+                    <h4> Estonian demographics</h4>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 text-center link-wrapper" >
-                    <a href="Udacity_WDND_final_project/index.html">
-                        <div class="link-image">
-                            <img class="img-responsive center-block" srcset="img/udacity_map_2x.jpg 2x" src="img/udacity_map.jpg" alt="">
-                        </div>
-                        <h4> Estonian cities Google Maps app</h4>
-                    </a>
+            </div>
+            <div class="row featured-list">
+                <div class="col-xs-12 col-sm-6 col-md-4 text-center link-wrapper" id="googleMaps" >
+                    <div class="link-image">
+                        <img class="img-responsive center-block" srcset="img/udacity_map_2x.jpg 2x" src="img/udacity_map.jpg" alt="">
+                    </div>
+                    <h4> Estonian cities Google Maps app</h4>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 text-center link-wrapper" id="ehifBudget">
+                    <div class="link-image">
+                        <img class="img-responsive center-block" srcset="img/budget_2x.jpg 2x" src="img/budget.jpg" alt="">
+                    </div>
+                    <h4> EHIF budget treemap (in estonian)</h4>
                 </div>
             </div>
         </section>
     </main>
+    <footer class="container">
+        <div class="row hr-row">
+            <div class="col-md-12 hr-cols">
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 contacts">
+                <div><a href="mailto:tormi.reinson@gmail.com?Subject=Hi!" target="_top">Email</a></div>
+                <div><a href="https://twitter.com/tormireinson"> Twitter </a></div>
+                <div><a href="https://www.linkedin.com/in/tormireinson/">Linkedin</a> </div>
+                <div>resume</div>
+            </div>
+        </div>
+    </footer>
+    <!-- Modal -->
+    <div class="modal fade" id="projectModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">UEFA Euro 2016 map</h4>
+          </div>
+          <div class="modal-body">
+              <div class="img-responsive" >
+                <video id="sampleMovie" src="" style="width:100%" controls autoplay loop></video>
+              </div>
+              <div class="project-description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </div>
+          </div>
+          <div class="modal-footer">
+            <a href="http://euro2016map.appspot.com/" class="btn btn-default" id="link-btn"></a>
+          </div>
+        </div>
+      </div>
+    </div>
 </body>
 </html>
