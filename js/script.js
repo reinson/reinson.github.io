@@ -44,6 +44,39 @@ projects.ehifBudget = {
     description: ""
 };
 
+projects.arcadeGame = {
+    videoSource: "",
+    title: "Arcade game",
+    link: "Udacity_WDND_project6/index.html",
+    visibleLink: "Link to application",
+    tags: ["JavaScript", "Object-oriented JS", "Canvas"],
+    description: ""
+};
+
+projects.election = {
+    videoSource: "",
+    title: "Estonian parliamentary election visualization",
+    link: "http://bl.ocks.org/reinson/raw/740e25faa7942f25896f/",
+    visibleLink: "Link to visualization",
+    tags: ["JavaScript", "D3.js", "Udacity"],
+    description: ""
+};
+
+projects.phd =  {
+
+};
+
+projects.wines = {
+
+};
+
+projects.firstNeuralNet = {
+
+};
+
+projects.machineLearning = {
+    
+};
 
 $(document).ready(function() {
     var modal = $("#projectModal");
