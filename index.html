@@ -57,8 +57,8 @@
 
 
     </header>
-    <main class="container">
-        <section class="featured-work">
+    <main>
+        <section class="featured-work container">
             <div class="row featured-title-row">
                 <div class="col-md-4 featured-title-cols">
                     <h2 class="text-muted">Featured work</h2>
@@ -82,15 +82,15 @@
                     </div>
                     <h4> EHIF budget treemap (in estonian)</h4>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 text-center link-wrapper" id="demographics" >
+                <div class="col-xs-12 col-sm-6 col-md-4 text-center link-wrapper" id="phd" >
                     <div class="link-image">
-                        <img class="img-responsive center-block" srcset="img/demographics_2x.jpg 2x" src="img/demographics.jpg" alt="Estonian demographics graph">
+                        <img class="img-responsive center-block" srcset="img/phd_2x.jpg 2x" src="img/phd.jpg" alt="Phd thesis thumbnail">
                     </div>
-                    <h4> Estonian demographics</h4>
+                    <h4> PhD thesis on molecular virology</h4>
                 </div>
             </div>
         </section>
-        <section class="featured-work">
+        <section class="projects container">
             <div class="row featured-title-row">
                 <div class="col-md-4 featured-title-cols">
                     <h2 class="text-muted">Projects</h2>
@@ -101,12 +101,18 @@
                     <hr>
                 </div>
             </div>
-            <div class="row featured-list">
+            <div class="row project-list ">
                 <div class="col-xs-12 col-sm-6 col-md-4 text-center link-wrapper" id="googleMaps" >
                     <div class="link-image">
                         <img class="img-responsive center-block" srcset="img/udacity_map_2x.jpg 2x" src="img/udacity_map.jpg" alt="Google maps app thumbnail">
                     </div>
                     <h4> Estonian cities Google Maps app</h4>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 text-center link-wrapper" id="demographics" >
+                    <div class="link-image">
+                        <img class="img-responsive center-block" srcset="img/demographics_2x.jpg 2x" src="img/demographics.jpg" alt="Estonian demographics graph">
+                    </div>
+                    <h4> Estonian demographics</h4>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4 text-center link-wrapper" id="uefa">
                     <div class="link-image">
@@ -114,21 +120,40 @@
                     </div>
                     <h4> UEFA 2016 map </h4>
                 </div>
+            </div>
+            <div class="row project-list ">
+                <div class="col-xs-12 col-sm-6 col-md-4 text-center link-wrapper" id="wines" >
+                    <div class="link-image">
+                        <img class="img-responsive center-block" srcset="img/wines1_2x.jpg 2x" src="img/wines1.jpg" alt="Wine analysis thumbnail">
+                    </div>
+                    <h4> Exploratory data analysis of wine quality  </h4>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 text-center link-wrapper" id="election" >
+                    <div class="link-image">
+                        <img class="img-responsive center-block" srcset="img/election_2x.jpg 2x" src="img/election.jpg" alt="Election vis thumbnail">
+                    </div>
+                    <h4> E-voting in Estonian parliamentary election </h4>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 text-center link-wrapper" id="machineLearning" >
+                    <div class="link-image">
+                        <img class="img-responsive center-block" srcset="img/machine_learning_2x.jpg 2x" src="img/machine_learning.jpg" alt="Machine learning project thumbnail">
+                    </div>
+                    <h4> Identifying fraud from Enron email </h4>
+                </div>
+            </div>
+            <div class="row project-list ">
+                <div class="col-xs-12 col-sm-6 col-md-4 text-center link-wrapper" id="firstNeuralNet" >
+                    <div class="link-image">
+                        <img class="img-responsive center-block" srcset="img/neural_network_2x.jpg 2x" src="img/neural_network.jpg" alt="Neural net thumbnail">
+                    </div>
+                    <h4> Neural network to predict bike rentals </h4>
+                </div>
                 <div class="col-xs-12 col-sm-6 col-md-4 text-center link-wrapper" id="arcadeGame">
                     <div class="link-image">
                         <img  class="img-responsive center-block" srcset="img/arcade_game_2x.jpg 2x" src="img/arcade_game.jpg" alt="Arcade game thumbnail">
                     </div>
                     <h4> Arcade game </h4>
                 </div>
-            </div>
-            <div class="row featured-list">
-                <div class="col-xs-12 col-sm-6 col-md-4 text-center link-wrapper" id="election" >
-                    <div class="link-image">
-                        <img class="img-responsive center-block" srcset="img/election_2x.jpg 2x" src="img/election.jpg" alt="Election vis thumbnail">
-                    </div>
-                    <h4> Estonian parliamentary election </h4>
-                </div>
-
             </div>
         </section>
 
@@ -150,25 +175,30 @@
     </footer>
     <!-- Modal -->
     <div class="modal fade" id="projectModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="myModalLabel">UEFA Euro 2016 map</h4>
-          </div>
-          <div class="modal-body">
-              <div class="img-responsive" >
-                <video id="sampleMovie" src="" style="width:100%" controls autoplay loop></video>
-              </div>
-              <div class="project-description">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </div>
-          </div>
-          <div class="modal-footer">
-            <a href="http://euro2016map.appspot.com/" class="btn btn-default" id="link-btn"></a>
-          </div>
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">UEFA Euro 2016 map</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-9">
+                            <video id="sampleMovie" src="" style="width:100%" controls autoplay loop></video>
+                        </div>
+                        <div class="col-xs-12 col-sm-3">
+                            <div class="keyword-title">Keywords</div>
+                            <hr>
+                            <div class="keywords"></div>
+                        </div>
+                    </div>
+                    <div class="row project-description"></div>
+                </div>
+                <div class="modal-footer">
+                    <a href="http://euro2016map.appspot.com/" class="btn btn-default" id="link-btn"></a>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
 </body>
 </html>
