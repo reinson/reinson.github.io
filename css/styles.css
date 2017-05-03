@@ -4,8 +4,9 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    color: rgb(60,60,60);
+    color: rgb(40,40,40);
     font-weight: 300;
+    font-size: 16px;
 }
 
 .container {
@@ -13,7 +14,7 @@ body {
 }
 
 .text-muted {
-    color: #bcbbbb
+    color: #777;
 }
 
 .text-thin {
@@ -49,10 +50,14 @@ hr {
     margin-bottom: 10px;
 }
 
+.modal-texts {
+    margin: 10px;
+}
+
 .project-description {
-    padding-right: 10%;
-    padding-left: 10%;
-    margin-top: 15px;
+    padding-right: 3%;
+    padding-left: 3%;
+    margin-top: 5px;
 }
 
 .modal-title {
@@ -60,7 +65,7 @@ hr {
 }
 
 .link-image {
-    -webkit-filter: grayscale(70%);
+    -webkit-filter: grayscale(40%);
     filter: grayscale(70%);
 }
 
@@ -115,13 +120,14 @@ hr {
 
 h1 {
     letter-spacing: 7px;
-    color: rgb(100,100,100);
+    color: rgb(50,50,50);
     margin-bottom: 25px;
+    text-shadow: 2px 2px 10px #060717;
 }
 
 .keyword-wrapper {
     padding-left: 5px;
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 20px;
 }
 
@@ -157,6 +163,10 @@ h1 {
         text-aling: center;
     }
 
+    .link-wrapper {
+        margin-bottom: 60px;
+    }
+
 }
 
 @media (min-width: 770px) {
@@ -168,15 +178,40 @@ h1 {
 .keywords div {
     margin-top: 6px;
     margin-right: 5px;
-    background: linear-gradient(#272e91,#1c2169);
+    background: linear-gradient(#9799b5,#454650);
     color: white;
     border-radius: 3px;
     padding: 4px;
     font-weight: 600;
     display: inline-block;
     box-shadow: 2px 2px 5px grey;
+    font-size: 14px;
 }
 
 .keyword-title {
     font-size:20px;
+}
+
+.modal-header {
+    background: linear-gradient(#363b85,#202678);
+    color: white;
+    border: #363b85;
+}
+
+.modal-body {
+    background: linear-gradient(#333333,white 1%);
+}
+
+.btn-primary {
+    background: linear-gradient(#272e91,#1c2169);
+    box-shadow: 2px 2px 5px grey;
+}
+
+.close {
+    color: white;
+    opacity: 0.7;
+}
+
+.link-wrapper{
+    height: 220px;
 }
