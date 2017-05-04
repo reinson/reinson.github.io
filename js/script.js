@@ -5,7 +5,7 @@ projects.uefa = {
     link: "http://euro2016map.appspot.com",
     visibleLink:  "euro2016map.appspot.com",
     tags: ["D3.js", "JavaScript", "Google maps API", "Python"],
-    description: "As a football fan I decided to create this application to visualize where are the players of different national teams playing club football. Select a country competing in UEFA European Championships 2016 and its players' home club locations are visualized on the map.  Made as a personal project with a friend. I did most of the front end work and she scraped and geolocated the player's data."
+    description: "As football fans we created this application to visualize where are the players of different national teams playing club football. Select a country competing in UEFA European Championships 2016 and its players' home club locations are visualized on the map. Made as a personal project with a friend. I did most of the front end work and she scraped and geolocated the player's data."
 };
 
 projects.dgns = {
@@ -72,7 +72,7 @@ projects.phd =  {
 };
 
 projects.wines = {
-    videoSource: "",
+    imgSource: "img/wines1_2x.jpg",
     title: "Exploratory analysis of wine quality",
     link: "http://htmlpreview.github.io/?https://raw.githubusercontent.com/reinson/UdacityProject3_Explore-and-Summarize-Data/master/Tormi_Reinson.html",
     visibleLink: "Link to analysis",
@@ -81,7 +81,7 @@ projects.wines = {
 };
 
 projects.machineLearning = {
-    videoSource: "",
+    imgSource: "img/ml_cover.jpg",
     title: "Identifying fraud from Enron email",
     link: "https://github.com/reinson/UdacityProject4_Identifying-Fraud-from-Enron-Email",
     visibleLink: "Link to Github repo",
@@ -90,11 +90,11 @@ projects.machineLearning = {
 };
 
 projects.firstNeuralNet = {
-    videoSource: "",
+    imgSource: "img/deep_learning_results.png",
     title: " Neural network to predict bike rentals",
     link: "https://github.com/reinson/deep-learning/blob/master/first-neural-network/DLND%20Your%20first%20neural%20network.ipynb",
     visibleLink: "Link to project",
-    tags: ["Machine learning", "Deep learning", "Udacity"],
+    tags: ["Deep learning","Machine learning","Data analysis", "Udacity"],
     description: "My first neural network that predicts daily bike rental ridership. I made this project during my ongoing Deep Learning Foundations nanodegree program, which is already my third nanodegree from Udacity."
 };
 
@@ -103,6 +103,7 @@ $(document).ready(function() {
     var modal = $("#projectModal");
     var modalTitle = modal.find(".modal-title");
     var video = modal.find("#sampleMovie");
+    var img = modal.find("#sampleImage");
     var link = modal.find("#link-btn");
     var tags = modal.find(".keywords");
     var description = modal.find(".project-description");
@@ -111,7 +112,19 @@ $(document).ready(function() {
         var id = this.getAttribute("id");
         var data = projects[id];
         modalTitle.html(data.title);
-        video.attr("src",data.videoSource);
+
+        if (data.videoSource){
+            video.toggleClass("hidden",false);
+            video.attr("src",data.videoSource);
+            img.toggleClass("hidden",true);
+        } else {
+            img.toggleClass("hidden",false);
+            img.attr("src",data.imgSource);
+            video.toggleClass("hidden",true);
+
+        }
+
+
         link.html(data.visibleLink);
         link.attr("href",data.link);
 

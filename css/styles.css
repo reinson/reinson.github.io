@@ -215,3 +215,11 @@ h1 {
 .link-wrapper{
     height: 220px;
 }
+
+.modal-media video{
+    width: 100%
+}
+
+.hidden {
+    display: none;
+}
