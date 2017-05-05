@@ -32,7 +32,7 @@ projects.googleMaps = {
     link: "http://reinson.github.io/Udacity_WDND_final_project/index.html",
     visibleLink: "Link to visualization",
     tags: ["D3.js", "Knockout.js", "Google maps API", "Wikipedia API", "JavaScript", "Udacity"],
-    description: "Since there is an administrative reform going on right now in Estonia I choose to visualize some Estonian geograpichal data as a project for the Udacity Front End Nanodegree. This Google maps based visualization shows all the cities and towns of Estonia. It uses Knocokout.js to populate and filter cities list in the sidebar and Wikipedia API to provide descriptions about the places."
+    description: "Since there is an administrative reform going on right now in Estonia I choose to visualize some Estonian geograpichal data as a project for the Udacity Front End Development Nanodegree. This Google maps based visualization shows all the cities and towns of Estonia. It uses Knocokout.js to populate and filter cities list in the sidebar and Wikipedia API to provide descriptions about the places."
 };
 
 projects.ehifBudget = {
@@ -50,7 +50,7 @@ projects.arcadeGame = {
     link: "Udacity_WDND_project6/index.html",
     visibleLink: "Link to application",
     tags: ["JavaScript", "Object-oriented JS", "Canvas", "Udacity"],
-    description: "This is a simple HTML5 canvas based game developed for the Udacity front end nanodegree program. Game engine, resources loading and graphics were provided by Udacity. I implemented rendering of all objects as well as game logic."
+    description: "This is a simple HTML5 canvas based game developed for the Udacity Front End Development Nanodegree program. Game engine, resources loading and graphics were provided by Udacity. I implemented rendering of all objects as well as game logic."
 };
 
 projects.election = {

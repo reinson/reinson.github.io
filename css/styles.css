@@ -55,9 +55,11 @@ hr {
 }
 
 .project-description {
-    padding-right: 3%;
-    padding-left: 3%;
     margin-top: 5px;
+}
+
+.keywords-wrapper {
+    margin-bottom: 10px;
 }
 
 .modal-title {
@@ -165,6 +167,10 @@ h1 {
 
     .link-wrapper {
         margin-bottom: 60px;
+    }
+
+    .modal-title {
+        font-size: 21px;
     }
 
 }
