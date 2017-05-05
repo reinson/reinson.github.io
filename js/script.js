@@ -5,7 +5,7 @@ projects.uefa = {
     link: "http://euro2016map.appspot.com",
     visibleLink:  "euro2016map.appspot.com",
     tags: ["D3.js", "JavaScript", "Google maps API", "Python"],
-    description: "As football fans we created this application to visualize where are the players of different national teams playing club football. Select a country competing in UEFA European Championships 2016 and its players' home club locations are visualized on the map. Made as a personal project with a friend. I did most of the front end work and she scraped and geolocated the player's data."
+    description: "As football fans we created this application to provide some interesting insights into teams competing in the last UEFA European Championship. It allows to select a country to visualize its players' home club locations on the map. Made as a personal project with a friend. I did most of the front end work and she scraped and geolocated the player's data."
 };
 
 projects.dgns = {
@@ -23,7 +23,7 @@ projects.demographics = {
     link: "http://bl.ocks.org/reinson/raw/4edb6d60afd451e1cfaf6369f943bd7b/",
     visibleLink: "Link to visualization",
     tags: ["D3.js", "JavaScript"],
-    description: "Estonia is facing a demographic crisis with decreasing birth rates and increasing number of elderly people. I visualized demographic changes of Estonia from the beginning of 20th century up to year 2040 with 25 year forecast to give an overview of the data that describes the serious problem."
+    description: "Estonia is facing a demographic crisis with decreasing birth rates and increasing number of elderly people. I visualized demographic changes of Estonia from the beginning of 20th century up to year 2040 with 25 year forecast to give an overview of the data that describes this serious problem."
 };
 
 projects.googleMaps = {
