@@ -5,7 +5,7 @@ projects.uefa = {
     link: "http://euro2016map.appspot.com",
     visibleLink:  "euro2016map.appspot.com",
     tags: ["D3.js", "JavaScript", "Google maps API", "Python"],
-    description: "As football fans we created this application to provide some interesting insights into teams competing in the last UEFA European Championship. It allows to select a country to visualize its players' home club locations on the map. Made as a personal project with a friend. I did most of the front end work and she scraped and geolocated the player's data."
+    description: "As football fans we created this application to provide some interesting insights into teams competing in the last UEFA European Championship. By selecting a country its players' home club locations are drawn on the map. Made as a personal project with a friend. I did most of the front end work and she scraped and geolocated the player's data."
 };
 
 projects.dgns = {
@@ -32,7 +32,7 @@ projects.googleMaps = {
     link: "http://reinson.github.io/Udacity_WDND_final_project/index.html",
     visibleLink: "Link to visualization",
     tags: ["D3.js", "Knockout.js", "Google maps API", "Wikipedia API", "JavaScript", "Udacity"],
-    description: "Since there is an administrative reform going on right now in Estonia I choose to visualize some Estonian geograpichal data as a project for the Udacity Front End Development Nanodegree. This Google maps based visualization shows all the cities and towns of Estonia. It uses Knocokout.js to populate and filter cities list in the sidebar and Wikipedia API to provide descriptions about the places."
+    description: "Since there is an administrative reform going on in Estonia I choose to visualize some Estonian geograpichal data as a project for the Udacity Front End Development Nanodegree. This Google maps based visualization shows all the cities and towns of Estonia. It uses Knocokout.js to populate and filter cities list in the sidebar and Wikipedia API to provide descriptions about the places."
 };
 
 projects.ehifBudget = {
@@ -45,7 +45,7 @@ projects.ehifBudget = {
 };
 
 projects.arcadeGame = {
-    videoSource: "",
+    videoSource: "mp4/arcade.mp4",
     title: "Arcade game",
     link: "Udacity_WDND_project6/index.html",
     visibleLink: "Link to application",
@@ -63,12 +63,13 @@ projects.election = {
 };
 
 projects.phd =  {
-    videoSource: "",
+    //imgSource: "img/phd_photo_2x.jpg",
+    videoSource: "mp4/phd_slides.mp4",
     title: "PhD thesis in molecular virology",
     link: "https://dspace.ut.ee/bitstream/handle/10062/49900/reinson_tormi.pdf?sequence=1&isAllowed=y",
     visibleLink: "Link to thesis",
     tags: ["Science", "Data analysis", "Data visualization", "Public speaking", "Writing"],
-    description: "<p>I have a PhD degree in molecular virology. I studied Human Papillomavirus and clarified some important aspects of its DNA replication that can play an important part in causing cancer.</p><p>  During my studies I published <a href='https://www.ncbi.nlm.nih.gov/pubmed?term=(reinson%20t)%20AND%20(%222011%2F01%2F01%22%5BDate%20-%20Publication%5D%20%3A%20%222016%2F01%2F01%22%5BDate%20-%20Publication%5D)'>four scientific articles</a> and gave several presentations in international confernces. I performed and analyzed tons of experiments and wrote up the results.</p><p> It was an interesting job and invaluable experience.</p> "
+    description: "<p>I have a PhD degree in molecular virology. During my studies I clarified some important aspects of Human papillomavirus DNA replication that could play a role in causing cancer.</p><p>  I published <a href='https://www.ncbi.nlm.nih.gov/pubmed?term=(reinson%20t)%20AND%20(%222011%2F01%2F01%22%5BDate%20-%20Publication%5D%20%3A%20%222016%2F01%2F01%22%5BDate%20-%20Publication%5D)'>four scientific articles</a> and gave several presentations in international confernces. I performed and analyzed tons of experiments and wrote up the results.</p><p> It was an interesting job and invaluable experience.</p> "
 };
 
 projects.wines = {
