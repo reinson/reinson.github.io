@@ -237,3 +237,7 @@ h1 {
         margin-bottom: 25px;
     }
 }
+
+.my-introduction p a {
+    color: rgb(40,40,40);
+}
