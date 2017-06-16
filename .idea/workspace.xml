@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d722ddef-da61-4b9b-bea7-e2fc4f6e2980" name="Default" comment="Cover images for modals">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="d722ddef-da61-4b9b-bea7-e2fc4f6e2980" name="Default" comment="Cover images for modals" />
     <ignored path="reinson.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />

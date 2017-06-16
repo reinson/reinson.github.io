@@ -4,3 +4,6 @@
 [submodule "mobility"]
 	path = mobility
 	url = https://github.com/reinson/mobility.git
+[submodule "arcade_game"]
+	path = arcade_game
+	url = https://github.com/reinson/arcade_game.git
