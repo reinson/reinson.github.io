@@ -7,3 +7,6 @@
 [submodule "arcade_game"]
 	path = arcade_game
 	url = https://github.com/reinson/arcade_game.git
+[submodule "jaan150"]
+	path = jaan150
+	url = https://github.com/reinson/jaan150.git
