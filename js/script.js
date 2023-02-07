@@ -2,8 +2,8 @@ var projects = {};
 projects.uefa = {
     videoSource: "mp4/uefa.mp4",
     title: "UEFA Euro 2016 map",
-    link: "http://euro2016map.appspot.com",
-    visibleLink:  "euro2016map.appspot.com",
+    link: "/euro2016",
+    visibleLink:  "Link to visualization",
     tags: ["D3.js", "JavaScript", "Google maps API", "Python"],
     description: "As a football fan I created, together with a friend, this application to provide interesting insights into teams competing in the last UEFA European Championship. By selecting a country its players' home club locations are drawn on the map. I did most of the front-end work and the friend scraped and geolocated the player's data."
 };
