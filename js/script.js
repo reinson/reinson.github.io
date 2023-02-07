@@ -47,7 +47,7 @@ projects.ehifBudget = {
 projects.arcadeGame = {
     videoSource: "mp4/arcade.mp4",
     title: "Arcade game",
-    link: "arcade_game/index.html",
+    link: "/elections",
     visibleLink: "Link to application",
     tags: ["JavaScript", "Object-oriented JS", "Canvas", "Udacity"],
     description: "This is a simple HTML5 canvas based game developed for the Udacity Front-End Web Developer Nanodegree program. Game engine, resources loading and graphics were provided by Udacity. I implemented rendering of all objects as well as game logic."
