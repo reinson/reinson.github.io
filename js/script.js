@@ -20,7 +20,7 @@ projects.dgns = {
 projects.demographics = {
     videoSource: "mp4/demographics.mp4",
     title: "Demographics of Estonia",
-    link: "http://bl.ocks.org/reinson/raw/4edb6d60afd451e1cfaf6369f943bd7b/",
+    link: "/population",
     visibleLink: "Link to visualization",
     tags: ["D3.js", "JavaScript"],
     description: "Estonia is facing a demographic crisis with decreasing birth rates and increasing number of elderly people. I visualized demographic changes of Estonia from the beginning of 20th century up to year 2040 with 25 year forecast to give an overview of the data that describes this serious problem."
