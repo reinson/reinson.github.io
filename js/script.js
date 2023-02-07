@@ -47,7 +47,7 @@ projects.ehifBudget = {
 projects.arcadeGame = {
     videoSource: "mp4/arcade.mp4",
     title: "Arcade game",
-    link: "/elections",
+    link: "/arcade_game",
     visibleLink: "Link to application",
     tags: ["JavaScript", "Object-oriented JS", "Canvas", "Udacity"],
     description: "This is a simple HTML5 canvas based game developed for the Udacity Front-End Web Developer Nanodegree program. Game engine, resources loading and graphics were provided by Udacity. I implemented rendering of all objects as well as game logic."
@@ -56,7 +56,7 @@ projects.arcadeGame = {
 projects.election = {
     videoSource: "mp4/elections.mp4",
     title: "Estonian parliamentary election visualization",
-    link: "http://bl.ocks.org/reinson/raw/740e25faa7942f25896f/",
+    link: "/elections",
     visibleLink: "Link to visualization",
     tags: ["JavaScript", "D3.js", "Udacity"],
     description: "Estonia is one of the first countries to use E-voting (over the internet voting) in general elections. This D3.js based interactive bubble chart shows the profile of a typical electronic voter. The viewer can explore how the fraction of electronic votes depends on different characteristics of the candidates."
